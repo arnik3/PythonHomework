@@ -17,7 +17,7 @@ def student(quantity: int):
     if points > 50:
         print("True-Вы сдали")
     else:
-        print("Вы отчислены. Собирайте вещи")
+        print("Вы отчислены.")
     quantity -= 1
     student(quantity)
 

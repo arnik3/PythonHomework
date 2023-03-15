@@ -23,7 +23,7 @@ def check_result(result:int):
     if result > 80:
         print("Наградить дипломом.")
     elif 50 < result <= 80:
-        print("Наградить похвальной грамотой.")
+        print("Наградить грамотой.")
     else:
         print("Выдать грамоту об участии.")
 
