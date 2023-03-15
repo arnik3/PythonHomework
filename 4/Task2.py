@@ -14,7 +14,7 @@ while inp != "off":
                 print("Неправильно")
 
             if win == True:
-                print("Вы выграли билет на концерт")
+                print("Вы выиграли билет на концерт")
             else:
                 (print("Вы проиграли"))
     inp = input()
