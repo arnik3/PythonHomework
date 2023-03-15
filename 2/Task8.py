@@ -1,3 +1,3 @@
-a = input()
-a = a.replace('ическая','.').replace('ический','.')
-print(a)
+c = input()
+c = c.replace('ическая','.').replace('ический','.')
+print(c)

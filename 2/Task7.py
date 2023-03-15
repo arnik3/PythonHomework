@@ -1,12 +1,12 @@
-full_name = input()
+name = input()
 a = ""
 
-a += full_name[:full_name.find(" ")] + " "
+a += name[:name.find(" ")] + " "
 
-full_name = full_name[full_name.find(" ") + 1:]
-a += full_name[0] + "."
+name = name[name.find(" ") + 1:]
+a += name[0] + "."
 
-full_name = full_name[full_name.find(" ") + 1:]
-a += full_name[0] + "."
+name = name[name.find(" ") + 1:]
+a += name[0] + "."
 
 print(a)
